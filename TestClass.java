@@ -7,6 +7,7 @@ public class TestClass {
         this.doubleTwo = doubleTwo;
     }
 
+    /** @return the product of TestClass' variables */
     public double getProduct() {
         return doubleOne * doubleTwo;
     }
