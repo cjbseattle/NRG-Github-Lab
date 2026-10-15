@@ -6,4 +6,8 @@ public class TestClass {
         this.doubleOne = doubleOne;
         this.doubleTwo = doubleTwo;
     }
+
+    public double getProduct() {
+        return doubleOne * doubleTwo;
+    }
 }
